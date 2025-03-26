@@ -26,12 +26,28 @@
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+        .image-link {
+            display: block;
+            margin-top: 10px;
+            color: #666;
+            text-decoration: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        .image-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="image-container">
-        <img src="images/output.png" alt="Output Image">
-        <img src="images/slice_z099.png" alt="Slice Image">
+        <div>
+            <img src="https://raw.githubusercontent.com/HMS-IAC/diffusion_microscopy/main/docs/images/output.png" alt="Output Image">
+            <a href="https://raw.githubusercontent.com/HMS-IAC/diffusion_microscopy/main/docs/images/output.png" class="image-link" target="_blank">Direct link to output.png</a>
+        </div>
+        <div>
+            <img src="https://raw.githubusercontent.com/HMS-IAC/diffusion_microscopy/main/docs/images/slice_z099.png" alt="Slice Image">
+            <a href="https://raw.githubusercontent.com/HMS-IAC/diffusion_microscopy/main/docs/images/slice_z099.png" class="image-link" target="_blank">Direct link to slice_z099.png</a>
+        </div>
     </div>
 </body>
 </html> 
